@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link href="tablet.css" rel="stylesheet" media="screen and (min-width: 600px)">
+    <link href="desktop.css" rel="stylesheet" media="screen and (min-width: 800px)">
     <title>My Portfolio</title>
   </head>
   <body>
@@ -14,7 +16,7 @@
             <img src="./logo.svg" class="img1" />
           </article>
           <article class="links">
-            <nav>
+            <nav class="links-menu">
               <ul>
                 <li class="menu">
                   <a href="#Home">Home</a>
@@ -30,12 +32,14 @@
       </header>
       <section class="mensaje">
         <article class="container rgb">
-          <div class="foto">
+          <picture class="foto">
+            <source media="(min-width:1300px)" srcset="./img/large.jpg"/>
+            <source media="(min-width:1000px)" srcset="./img/medium.jpg"/>
             <img src="./img/Erikaperfil.jpg" />
-          </div>
+          </picture>
           <div class="welcome">
             <h1 class="text">Welcome,</h1>
-            <h3 class="text">thank you for coming to meet me.</h3>
+            <p class="text">thank you for coming to meet me.</p>
             <p class="text">I'm a front-end web developer </p>
             <p class="text">
               and I invite you to continue exploring my website and getting to know my projects and the technologies I've used.
@@ -48,10 +52,11 @@
       </section>
       <section class="aboutme" id="Skills">
         <article class="tecno">
-          <p class="skills">Skills</p>
+          <h2 class="skills">Skills</h2>
           <article class="allTecno">
             <ul class="allTecno">
-              <li class="card">
+              <li>
+                <figure class="card">
                 <a
                 href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
                 target="_blank"
@@ -61,61 +66,80 @@
                  
                 />
               </a>
-              <p>Javascript</p> 
+              <figcaption>Javascript</figcaption> 
+            </figure>
               </li>
-              <li class="card"> 
+              <li>
+              <figure class="card"> 
                 <a href="https://www.w3.org/html/" target="_blank">
                   <img src="https://img.icons8.com/color/48/000000/html-5.png" />
                 </a>
-                <p>Html5</p> 
-              </li>
-              <li class="card"> 
+                <figcaption>Html5</figcaption> 
+              </figure>
+            </li>
+              <li> 
+                <figure class="card">
                 <a href="https://www.w3schools.com/css/" target="_blank">
                   <img src="https://img.icons8.com/color/48/000000/css3.png"/>
                 </a>
-                <p>Css3</p> 
+                <figcaption>Css3</figcaption> 
+              </figure>
               </li>
-              <li class="card">
+              <li>
+                <figure class="card">
                 <a href="https://firebase.google.com/" target="_blank">
                   <img src="https://img.icons8.com/color/48/000000/firebase.png" />
                 </a>
-                <p>Firebase</p> 
+                <figcaption>Firebase</figcaption> 
+              </figure>
               </li>
-             <li class="card">
+             <li>
+              <figure class="card">
               <a href="https://www.figma.com/" target="_blank">
                 <img src="https://img.icons8.com/office/45/000000/figma.png" />
               </a>
-              <p>Figma</p> 
+              <figcaption>Figma</figcaption> 
+            </figure>
              </li>
-             <li class="card">
+             <li>
+              <figure class="card">
               <a href="https://git-scm.com/" target="_blank">
                 <img src="https://img.icons8.com/color/48/000000/git.png" />
               </a>
-              <p>Git</p> 
+              <figcaption>Git</figcaption>
+            </figure> 
              </li>
-             <li class="card">
+             <li>
+              <figure class="card">
               <a href="https://trello.com/" target="_blank"
               ><img
                 src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/null/external-trello-a-web-based-list-making-application-for-multi-platform-logo-color-tal-revivo.png"
               />
             </a>
-            <p>Trello</p> 
+            <figcaption>Trello</figcaption>
+          </figure> 
              </li>
-            <li class="card">
+            <li>
+              <figure class="card">
               <a href="https://nodejs.org/api/path.html" target="_blank"
               ><img src="https://img.icons8.com/color/48/null/nodejs.png"
             /></a>
-            <p>Node.js</p> 
+            <figcaption>Node.js</figcaption>
+          </figure> 
             </li>
-            <li class="card">
+            <li>
+              <figure class="card">
               <a href="https://github.com/ErikaDUARTEm" target="_blank"
               ><img src="https://img.icons8.com/fluency/48/null/github.png"/></a>
-              <p>Github</p> 
+              <figcaption>Github</figcaption> 
+            </figure>
             </li>
-            <li class="card">
+            <li>
+              <figure class="card">
               <a href="https://jestjs.io/" target="_blank"
             ><img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/null/external-jest-can-collect-code-coverage-information-from-entire-projects-logo-color-tal-revivo.png"/></a>
-            <p>Jest</p> 
+              <figcaption>Jest</figcaption>
+          </figure> 
           </li>
           </ul>
           </article>
