@@ -59,28 +59,27 @@ ul{
   background-attachment: fixed;
 }
 .links{
-  display: flex;
   justify-content: space-evenly;
   align-items: center;
   width: 60vw;
   font-weight:bold;
+  display: block;
 }
-.links-menu{
+.nav{
   width: 65%;
-  display: inline-block;
+  display: block;
 }
-.menu{
+.nav-list{
   display: flex;
   justify-content: space-between;
   font-size: 2rem;
 
 }
-a {
-  color: #12AAC8;
+.nav-list li a{
   text-decoration: none;
-  
+  color: #4B0082;
 }
-a:hover{
+.nav-list li a:hover{
   text-shadow: 1px 1px 2px rgb(237, 235, 235), 0 0 25px rgb(223, 142, 241), 0 0 5px rgb(195, 11, 232);
 }
 
@@ -303,4 +302,7 @@ button img{
   -moz-transform: scale(1.2);
   -ms-transform: scale(1.2);
   -o-transform: scale(1.2);
+}
+.menu-hamburguer{
+  display: none;
 }
