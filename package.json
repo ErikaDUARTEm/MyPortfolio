@@ -4,10 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "serve src/",
+    "start": "serve ./src",
     "eslint": "eslint --ext .js src/ test/",
     "pretest": "npm run eslint && npm run htmlhint",
-    "test": "jest --verbose --coverage"
+    "test": "jest --verbose --coverage",
+    "fake-api": "json-server --watch db.json --port 5000"
+  },
+
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/plugin-transform-modules-commonjs": "^7.6.0",
+    "@babel/preset-env": "^7.19.4",
+    "eslint": "^8.3.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^25.3.0",
+    "htmlhint": "^1.0.0",
+    "serve": "^14.0.1"
   },
   "author": "Erika Duarte <erika.duarte.mora@gmail.com>",
   "license": "ISC"
