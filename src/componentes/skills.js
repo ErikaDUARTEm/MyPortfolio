@@ -97,5 +97,5 @@ export const skills = () => {
     return skill;
 }
 const section = document.querySelector(".skill");
-console.log(section)
-section.insertAdjacentHTML("beforeBegin", skills());
+
+section.insertAdjacentHTML("beforeEnd", skills());

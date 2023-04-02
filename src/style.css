@@ -195,7 +195,7 @@ button img{
   align-items: center;
 }
 .img1{
-  width: 100%;
+  width: 80%;
   height: 100%;
   
 }
@@ -278,7 +278,7 @@ button img{
     height: 100%;
     display: flex;
     flex-direction: row;
-    gap: 1rem;
+    gap: 2rem;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
@@ -287,22 +287,21 @@ button img{
   .card{
     display: flex;
     border: 1px  solid var(--background-color);
-    width: 100px;
+    width: 7rem;
     justify-content: center;
     align-items: center;
     color: var(--primary-color);
     flex-direction: column;
-    border-radius: 20px;
-    gap:16px;
-    height: 150px;
+    border-radius: 2rem;
+    height: 9rem;
     background-color: var(--background-color);
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
+    -webkit-border-radius: 2rem;
+    -moz-border-radius: 2rem;
+    -ms-border-radius: 2rem;
+    -o-border-radius: 2rem;
     box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
     font-family: 'Petrona', serif;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 }
 .card:hover{
   transform: scale(1.2);
@@ -324,4 +323,33 @@ button img{
   -moz-border-radius: 3rem;
   -ms-border-radius: 3rem;
   -o-border-radius: 3rem;
+}
+.projects{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.card-projects{
+  width: 20rem;
+  height: 25rem;
+  background-color: var(--second-color);
+  box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+  transform-style: preserve-3d;
+  border-radius: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.img-project{
+  width: 15rem;
+  height: 16rem;
+  border-radius: 2rem;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
 }

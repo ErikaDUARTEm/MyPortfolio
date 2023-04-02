@@ -17,5 +17,5 @@ export const aboutme = () => {
     return about;
 }
 const section = document.querySelector(".aboutme");
-console.log(section)
+
 section.insertAdjacentHTML("afterbegin", aboutme());

@@ -19,5 +19,4 @@ export const mensaje = () => {
     return msj;
 }
 const section = document.querySelector(".mensaje");
-console.log(section)
 section.insertAdjacentHTML("afterbegin", mensaje());
