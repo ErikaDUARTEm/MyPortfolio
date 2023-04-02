@@ -35,7 +35,13 @@ header{
   font-family: var(--font-family-second);
   
 }
-
+.main{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
 ul{
    list-style: none;
    
@@ -124,15 +130,15 @@ ul{
   transform: translateZ(-1px);
   animation:rgb 6s linear infinite;
   -webkit-animation:rgb 6s linear infinite;
-  -webkit-border-radius: 150px;
+  -webkit-border-radius: 16px;
   -moz-border-radius: 16px;
   -ms-border-radius: 16px;
   -o-border-radius: 16px;
   -webkit-filter: blur(8px);
-  -webkit-transform:;
-  -moz-transform:;
-  -ms-transform:;
-  -o-transform:;
+  -webkit-transform: translateZ(-1px);
+  -moz-transform: translateZ(-1px);
+  -ms-transform: translateZ(-1px);
+  -o-transform: translateZ(-1px);
 }
 @keyframes rgb {
   0% {background-position: 0% 50%}
@@ -326,11 +332,11 @@ button img{
 }
 .projects{
   width: 100vw;
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  gap: 1.6rem;
 }
 .card-projects{
   width: 20rem;
@@ -340,16 +346,70 @@ button img{
   transform-style: preserve-3d;
   border-radius: 2rem;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-direction: column;
+  flex-wrap: nowrap;
+  -webkit-border-radius: 2rem;
+  -moz-border-radius: 2rem;
+  -ms-border-radius: 2rem;
+  -o-border-radius: 2rem;
 }
 .img-project{
   width: 15rem;
-  height: 16rem;
+  height: 13rem;
   border-radius: 2rem;
   -webkit-border-radius: 2rem;
   -moz-border-radius: 2rem;
   -ms-border-radius: 2rem;
   -o-border-radius: 2rem;
+  object-fit: contain;
+}
+.allprojects{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: center;
+}
+.text-card{
+  font-family: var(--font-family-principal);
+  font-size: 1.2rem;
+  width: 80%;
+  color: var(--primary-color);
+}
+.contact{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.form{
+    width: 75%;
+    height: 80%;
+    background-color: var(--second-color);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.label{
+  display: flex;
+  width: 90%;
+  justify-content: space-around;
+  align-items: center;
+}
+.inputs{
+  width: 5rem;
+  height: 2rem;
+  padding: 1rem;
+}
+.button-submit{
+  width: 90%;
+  height: 3rem;
 }

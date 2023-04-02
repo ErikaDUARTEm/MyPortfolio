@@ -4,18 +4,17 @@ const cardProjects = (data) => {
     const card = `
       <article class="card-projects">
         <article class="allprojects">
-              <figure  >
+              <figure>
               <a
               href=${data.url}
               target="_blank"
             >
-              <img src=${data.image}
+              <img src=${data.image} class="img-project"
               />
             </a>
-            <figcaption>${data.name}</figcaption> 
+            <figcaption class="text">${data.name}</figcaption> 
           </figure>
-          <p>${data.description}</p>
-          <p>${data.technologies}</p>
+          <p class="text-card">${data.technologies}</p>
       </article>
   `
   return card;

@@ -37,7 +37,7 @@
     },
     {
         "name": "Calculator",
-        "image": "./img/calculator",
+        "image": "./img/calculator.png",
         "url":"https://erikaduartem.github.io/Calculadora/",
         "description":"Calculator for simple operations.",
         "technologies": "Html, Css, Javascript, Git, Github"
