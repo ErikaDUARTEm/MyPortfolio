@@ -1,20 +1,20 @@
 const formContact = () => {
 const form = `
-<form class="form">
-    <label class="label">
-        <span class="text">Name:</span>
-        <input type="text" placeholder="Name"/>
+<form action="https://formspree.io/f/xvonqnyb" method="post" class="form">
+    <label for="name" class="label">
+        <span class="allText">Name:</span>
+        <input id="name" name="name" placeholder="Name" required/>
+    </label>
+    <label for="email" class="label">
+        <span class="allText">Email:</span>
+        <input type="email" name="email" id="email" placeholder="Email" required/>
+    </label>
+    <label for="message" class="label">
+        <span class="allText">Message:</span>
+        <textarea name="message" id="message" placeholder="Message" required></textarea>
     </label>
     <label class="label">
-        <span class="text">Email:</span>
-        <input type="email" placeholder="Email"/>
-    </label>
-    <label class="label">
-        <span class="text">Message:</span>
-        <textarea type="text" placeholder="Message"></textarea>
-    </label>
-    <label class="label">
-        <input class="button-submit" type="submit" value="submit"/>
+        <input class="button-submit" type="submit" value="Submit"/>
     </label>
 </form>
 `

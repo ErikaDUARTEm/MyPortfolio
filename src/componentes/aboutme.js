@@ -1,10 +1,10 @@
 export const aboutme = () => {
     const about = `
-    <article class="tecno">
+    <article class="container-aboutme">
           <h2 class="skills">About me</h2>
-          <article class="text-about
+          <article class="text-about 
           ">
-            <p>I entered the world of web development as a self-taught learner and later applied to Laboratoria's bootcamp, 
+            <p class="allText">I entered the world of web development as a self-taught learner and later applied to Laboratoria's bootcamp, 
               where I met and shared with women of different ages and cultures, all united by a common goal, to become web developers. 
               For 6 months, we worked on real projects, using agile methodology with the Scrum framework and developing life skills. 
               In my future goals, I hope to continue acquiring new knowledge and growing professionally. 

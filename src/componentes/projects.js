@@ -1,3 +1,5 @@
+
+
 const section = document.getElementById("projects");
 
 const cardProjects = (data) => {
@@ -12,7 +14,7 @@ const cardProjects = (data) => {
               <img src=${data.image} class="img-project"
               />
             </a>
-            <figcaption class="text">${data.name}</figcaption> 
+            <figcaption class="allText">${data.name}</figcaption> 
           </figure>
           <p class="text-card">${data.technologies}</p>
       </article>
