@@ -1,15 +1,15 @@
 const hamburguer = document.querySelector(".menu-hamburguer")
 
-const menu = document.querySelector(".nav").classList;
-
+const menu = document.querySelector(".nav");
+console.log(menu)
+console.log(hamburguer)
 
 hamburguer.addEventListener("click", ()=>{
-    console.log("click")
-    menu.add("spread");
+    menu.classList.add("spread");
 })
 
 window.addEventListener("click", (e)=>{
-    if(menu.includes("spread") && e.target !=menu && e.target != hamburguer){
+    if(menu.classList.contains("spread") && e.target !=menu && e.target != hamburguer){
         menu.classList.toggle("spread");
     }
 })
