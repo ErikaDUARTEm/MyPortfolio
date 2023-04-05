@@ -98,9 +98,10 @@ ul{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: var(--primary-color)
 }
 .nav-list li a:hover{
-  background-color:  #3f2c5984;
+  background-color: #3f2c5995;
   border-radius: 1rem;
   -webkit-border-radius: 1rem;
   -moz-border-radius: 1rem;
