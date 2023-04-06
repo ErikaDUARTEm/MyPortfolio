@@ -6,87 +6,64 @@ export const skills = () => {
             <ul class="allTecno">
               <li>
                 <figure class="card">
-                <a
-                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-                target="_blank"
-              >
                 <img
-                  src="https://img.icons8.com/color/48/000000/javascript.png"
-                 
-                />
-              </a>
+                  src="https://img.icons8.com/color/48/000000/javascript.png"/>
               <figcaption>Javascript</figcaption> 
             </figure>
               </li>
               <li>
               <figure class="card"> 
-                <a href="https://www.w3.org/html/" target="_blank">
-                  <img src="https://img.icons8.com/color/48/000000/html-5.png" />
-                </a>
+                  <img src="https://img.icons8.com/color/48/000000/html-5.png"/>
                 <figcaption>Html5</figcaption> 
               </figure>
             </li>
               <li> 
                 <figure class="card">
-                <a href="https://www.w3schools.com/css/" target="_blank">
                   <img src="https://img.icons8.com/color/48/000000/css3.png"/>
-                </a>
                 <figcaption>Css3</figcaption> 
               </figure>
               </li>
               <li>
                 <figure class="card">
-                <a href="https://firebase.google.com/" target="_blank">
                   <img src="https://img.icons8.com/color/48/000000/firebase.png" />
-                </a>
                 <figcaption>Firebase</figcaption> 
               </figure>
               </li>
              <li>
               <figure class="card">
-              <a href="https://www.figma.com/" target="_blank">
                 <img src="https://img.icons8.com/office/45/000000/figma.png" />
-              </a>
               <figcaption>Figma</figcaption> 
             </figure>
              </li>
              <li>
               <figure class="card">
-              <a href="https://git-scm.com/" target="_blank">
                 <img src="https://img.icons8.com/color/48/000000/git.png" />
-              </a>
               <figcaption>Git</figcaption>
             </figure> 
              </li>
              <li>
               <figure class="card">
-              <a href="https://trello.com/" target="_blank"
-              ><img
+              <img
                 src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/null/external-trello-a-web-based-list-making-application-for-multi-platform-logo-color-tal-revivo.png"
               />
-            </a>
             <figcaption>Trello</figcaption>
           </figure> 
              </li>
             <li>
               <figure class="card">
-              <a href="https://nodejs.org/api/path.html" target="_blank"
-              ><img src="https://img.icons8.com/color/48/null/nodejs.png"
-            /></a>
+              <img src="https://img.icons8.com/color/48/null/nodejs.png"/>
             <figcaption>Node.js</figcaption>
           </figure> 
             </li>
             <li>
               <figure class="card">
-              <a href="https://github.com/ErikaDUARTEm" target="_blank"
-              ><img src="https://img.icons8.com/fluency/48/null/github.png"/></a>
+              <img src="https://img.icons8.com/fluency/48/null/github.png"/>
               <figcaption>Github</figcaption> 
             </figure>
             </li>
             <li>
               <figure class="card">
-              <a href="https://jestjs.io/" target="_blank"
-            ><img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/null/external-jest-can-collect-code-coverage-information-from-entire-projects-logo-color-tal-revivo.png"/></a>
+            <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/null/external-jest-can-collect-code-coverage-information-from-entire-projects-logo-color-tal-revivo.png"/>
               <figcaption>Jest</figcaption>
           </figure> 
           </li>

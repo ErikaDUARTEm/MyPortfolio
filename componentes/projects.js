@@ -10,7 +10,7 @@ const projects = [
           {
           "name": "National Security",
           "image": "https://raw.githubusercontent.com/ErikaDUARTEm/DEV001-cipher/main/src/img/national%20security.jpg",
-          "url":"erikaduartem.github.io/DEV001-cipher/",
+          "url":"https://erikaduartem.github.io/DEV001-cipher/",
           "description":"National SecurityIt is a software for encrypting messages based on the Cesar Cipher.",
           "technologies": "Html, Css, Javascript, Jest, Git, Github",
           },
@@ -31,7 +31,7 @@ const projects = [
           {
           "name": "Md-linksek",
           "image": "https://raw.githubusercontent.com/ErikaDUARTEm/DEV001-md-links/main/img/Welcome.png",
-          "url":"www.npmjs.com/package/md-linksek",
+          "url":"https://www.npmjs.com/package/md-linksek",
           "description":"Md-linksek It is a library that helps you extract the links found within a .md file and validate the status of these links, the number of links, whether they are unique, and whether there are broken links.",
           "technologies": "Html, Css, Javascript, Node.js, Jest, Git, Github",
           },
