@@ -24,6 +24,8 @@ html{
 }
 body{
   background-color: var(--primary-color);
+  width: 100vw;
+  overflow-x:hidden;
 }
 header{
   background-color: var(--primary-color);
@@ -73,31 +75,38 @@ ul{
   display: none;
   position: relative;
   top:0;
-  transform: translate(110%);
-  transition: transform .3s ease-in-out;
+  transform: translate(100%);
   border-radius: 0px 0 0 200px;
   background-color: var(--second-color);
-  width: 90%;
-  height: 100%;
+  width: 50%;
+  height: 35vh;
   right: 0;
   padding: 5px;
-  -webkit-transform: translate(110%);
-  -moz-transform: translate(110%);
-  -ms-transform: translate(110%);
-  -o-transform: translate(110%);
-  -webkit-transition: transform .3s ease-in-out;
-  -moz-transition: transform .3s ease-in-out;
-  -ms-transition: transform .3s ease-in-out;
-  -o-transition: transform .3s ease-in-out;
+  -webkit-transform: translate(100%);
+  -moz-transform: translate(100%);
+  -ms-transform: translate(100%);
+  -o-transform: translate(100%);
+  -webkit-transition:;
+  -moz-transition:;
+  -ms-transition:;
+  -o-transition:;
 }
-
+.nav-list{
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
 .nav-list li a{
     text-decoration: none;
-    width: 100%;
+    width: 80vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-weight: bold;
     color: var(--primary-color)
 }
 .nav-list li a:hover{
@@ -134,6 +143,7 @@ ul{
   align-items: center;
   width: 100vw;
   height: 100vh;
+  margin-top: 6rem;
   transform: translateZ(30px);
   background: linear-gradient(#fff0 0%, #fff0 70%, #1d1d1d 100%);
   -webkit-transform: translateZ(30px);
@@ -172,7 +182,7 @@ ul{
   border-radius: 7rem;
   display: flex;
   width: 90%;
-  height: 60%;
+  height: 50%;
   position: relative;
   flex-direction:row;
   justify-content: center;
@@ -412,6 +422,12 @@ button img{
   flex-wrap: nowrap;
   align-items: center;
   justify-content: center;
+}
+.allprojects >figure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .text-card{
   font-family: var(--font-family-principal);

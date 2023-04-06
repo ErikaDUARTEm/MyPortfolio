@@ -1,8 +1,6 @@
 const hamburguer = document.querySelector(".menu-hamburguer")
 
 const menu = document.querySelector(".nav");
-console.log(menu)
-console.log(hamburguer)
 
 hamburguer.addEventListener("click", ()=>{
     menu.classList.add("spread");
