@@ -563,7 +563,18 @@ textarea {
   font-family: var(--font-family-second);
   font-weight: bold;
 }
-
+.button-submit {
+  color: var(--second-color);
+  background-color: var(--color-text);
+  font-family: var(--font-family-second);
+  font-weight: bold;
+}
+.button-submit:hover{
+  cursor: pointer;
+  color: rgba(255, 255, 255, 1);
+  box-shadow: 0 4px 16px var(--color-box-shadow);
+  transition: all 0.2s ease;
+}
 footer {
   display: flex;
   justify-content: space-evenly;
@@ -1041,19 +1052,6 @@ footer {
     -ms-transform: ;
     -o-transform: ;
     margin-bottom: 3rem;
-  }
-
-  .button-submit {
-    color: var(--second-color);
-    background-color: var(--color-text);
-    font-family: var(--font-family-second);
-    font-weight: bold;
-  }
-  .button-submit:hover{
-    cursor: pointer;
-    color: rgba(255, 255, 255, 1);
-    box-shadow: 0 4px 16px var(--color-box-shadow);
-    transition: all 0.2s ease;
   }
   
 footer {
