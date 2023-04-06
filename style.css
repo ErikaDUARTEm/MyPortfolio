@@ -522,9 +522,62 @@ footer{
     flex-wrap: wrap;
     flex-direction: row;
     }
-    .allTecno{
-      width: 90%;
+    .tecno{
+      width: 80%;
+      height: 90%;
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: column;
+      align-items: center;
+  
     }
+    .skill .skills{
+      font-size: 3rem;
+      color:#12AAC8;
+      font-family: 'Alkatra', cursive;
+      justify-content: center;
+      align-items: center;
+  
+    }
+    .allTecno{
+      width: 70vw;
+      height: 100%;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+      align-items: center;
+     
+    }
+    .card{
+      display: flex;
+      border: 1px  solid #3fdad7be;
+      width: 100px;
+      justify-content: center;
+      align-items: center;
+      color: #4B0082;
+      flex-direction: column;
+      border-radius: 20px;
+      gap: 1.2rem;
+      height: 100px;
+      font-weight: bold;
+      background-color: #3fdad7ae ;
+      -webkit-border-radius:;
+      -moz-border-radius:;
+      -ms-border-radius:;
+      -o-border-radius:;
+      box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
+      font-family: 'Petrona', serif;
+      font-size: 1.8rem;
+  }
+  .card:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    -webkit-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+  }
     .nav{
       width: 50%;
     }
@@ -536,6 +589,16 @@ footer{
     }
     .nav-list{
       font-size: 1.3rem;
+    }
+    .allText{
+      font-family: var(--font-family-principal);
+      color: #4B0082;
+      font-weight: bold;
+      font-size: 2rem;
+      word-spacing: 1rem;
+      letter-spacing: 1px;
+      text-align: justify;
+     
     }
 }
 
@@ -551,7 +614,6 @@ header{
   font-family: 'Petrona', serif;
   
 }
-
 .logo{
 display: flex;
 justify-content: center;
@@ -766,7 +828,7 @@ button img{
   .aboutme{
     background-color: #3F2C59;
     width: 100vw;
-    height: auto;
+    height:100vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -775,67 +837,11 @@ button img{
 
   }
   .text-about{
-    width: 80%;
+    width: 90vw;
+    height: 70vh;
   }
-  .tecno{
-    width: 80%;
-    height: 90%;
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    align-items: center;
-
-  }
-  .skills{
-    font-size: 3rem;
-    color:#12AAC8;
-    font-family: 'Alkatra', cursive;
-    height:auto;
-    justify-content: center;
-    align-items: center;
   
-
-  }
-  .allTecno{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    gap: 5rem;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-   
-  }
-  .card{
-    display: flex;
-    border: 1px  solid #3fdad7be;
-    width: 100px;
-    justify-content: center;
-    align-items: center;
-    color: #4B0082;
-    flex-direction: column;
-    border-radius: 20px;
-    gap:16px;
-    height: 150px;
-    font-weight: bold;
-    background-color: #3fdad7ae ;
-    -webkit-border-radius:;
-    -moz-border-radius:;
-    -ms-border-radius:;
-    -o-border-radius:;
-    box-shadow: 5px 5px 15px rgba(0,0,0,0.9);
-    font-family: 'Petrona', serif;
-    font-size: 1.8rem;
-}
-.card:hover{
-  transform: scale(1.2);
-  cursor: pointer;
-  -webkit-transform: scale(1.2);
-  -moz-transform: scale(1.2);
-  -ms-transform: scale(1.2);
-  -o-transform: scale(1.2);
-}
+  
 .menu-hamburguer{
   display: none;
 }
@@ -866,16 +872,7 @@ button img{
   height: 40%;
   padding: 1rem;
 }
-.allText{
-  font-family: var(--font-family-principal);
-  color: #4B0082;
-  font-weight: bold;
-  font-size: 2rem;
-  word-spacing: 1rem;
-  letter-spacing: 1px;
-  text-align: justify;
- 
-}
+
 textarea{
   resize:none;
   width: 50%;
@@ -893,7 +890,7 @@ textarea{
     flex-direction: column;
     align-items: center;
     width: 80%;
-    gap:3rem;
+    height: 100%;
 }
 form input{
   width: 50%;

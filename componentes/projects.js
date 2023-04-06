@@ -5,7 +5,7 @@ const projects = [
           "image": "./img/foto-trivia.png",
           "url":"https://erikaduartem.github.io/trivia-Laboratoria/",
           "description":"Movie Trivia",
-          "technologies": "Html, Css, Javascript",
+          "technologies": "Html, Css, Javascript, Git, Github",
           },
           {
           "name": "National Security",
