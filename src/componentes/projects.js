@@ -58,7 +58,7 @@ const projects = [
             },
             {
               "name": "Juego Tic Toc Toe",
-              "image": "https://raw.githubusercontent.com/ErikaDUARTEm/app-ricky-morty-react/main/src/img/rick-morty.png",
+              "image": "https://raw.githubusercontent.com/ErikaDUARTEm/MyPortfolio/main/src/img/tictoctoe.png",
               "url":"https://tic-toc-toe-con-react-gf7j17t8t-erikaduartem.vercel.app/",
               "repositorio":"https://github.com/ErikaDUARTEm/Tic-toc-toe-con-react",
               "description":"Popular juego llamado tic toc toe",
@@ -66,7 +66,7 @@ const projects = [
               },
               {
                 "name": "Ecommerce web day",
-                "image": "https://raw.githubusercontent.com/ErikaDUARTEm/app-ricky-morty-react/main/src/img/rick-morty.png",
+                "image": "https://raw.githubusercontent.com/ErikaDUARTEm/MyPortfolio/main/src/img/ecommerce.png",
                 "url":"https://ecommerce-web-day-rs4w-o92b4ifq1-erikaduartem.vercel.app/",
                 "repositorio":"https://github.com/ErikaDUARTEm/ecommerce-web-day",
                 "description":"Ecommerce consumiendo Api.",
