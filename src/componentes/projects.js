@@ -74,7 +74,7 @@ const projects = [
                 },
                 {
                   "name": "Block notes",
-                  "image": "https://github.com/ErikaDUARTEm/block-notes-php/blob/main/assets/img/addNew.png",
+                  "image": "https://raw.githubusercontent.com/ErikaDUARTEm/MyPortfolio/main/src/img/home.png",
                   "url":"https://github.com/ErikaDUARTEm/block-notes-php",
                   "repositorio":"https://github.com/ErikaDUARTEm/block-notes-php",
                   "description":"Es una app web para guardar notas, podrás crear, leer, editar y eliminar de la base de datos a la que la conectes.",
