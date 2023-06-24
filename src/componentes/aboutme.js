@@ -4,11 +4,18 @@ export const aboutme = () => {
           <h2 class="skills">About me</h2>
           <article class="text-about 
           ">
-            <p class="allText">I entered the world of web development as a self-taught learner and later applied to Laboratoria's bootcamp, 
-              where I met and shared with women of different ages and cultures, all united by a common goal, to become web developers. 
-              For 6 months, we worked on real projects, using agile methodology with the Scrum framework and developing life skills. 
-              In my future goals, I hope to continue acquiring new knowledge and growing professionally. 
-              I would like to become a full-stack developer and eventually lead a development team. 
+            <p class="allText">
+            Hace más de un año inicie en el mundo de la programación como autodidacta, 
+            hasta que postule a el bootcamp de desarrollo web de Laboratoria, 
+            el cual fue un programa intensivo de 6 meses 100% remoto, donde compartí con mujeres de Perú, 
+            México, Chile, Colombia y Venezuela, con las cuales desarrolle proyectos desde la metodología ágil scrum 
+            y además de adquirir conocimientos en tecnologias como HTML, CSS, JAVASCRIPT, GIT, GITHUB, NODE.JS, FIGMA, 
+            TRELLO, REACT, tambien fortalecimos nuestras habilidades blancas, como el trabajo en equipo, resolución de problemas,
+            colaboración, autoaprendizaje, comunicación eficaz entre otras, Finalmente obtuve el certificado de desarrolladora web frontend;
+            y adicional a ello, he potenciado mis skills con cursos en platzi,  codigo facilito, un curso de SQL(MySQL) con la empresa Globant
+            y un curso de fundamentos de CodeIgniter(Php) con la fundación universitaria Confenalco.
+            Actualmente me encuentro en busqueda de esa primera oportunidad laboral en el mundo tech que le de impulso a mi carrera como desarrolladora web, 
+            puesto que, una de mis metas es convertirme en desarrolladora web full stack y llegar a liderar un equipo de desarrollo. 
             </p>
           </article>
           

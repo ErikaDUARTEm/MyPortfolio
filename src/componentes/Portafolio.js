@@ -1,18 +1,22 @@
 export const mensaje = () => {
     const msj = `
-    <article class="container rgb">
-          <picture class="foto">
-            <source media="(min-width:1300px)" srcset="./img/large.jpg"/>
-            <source media="(min-width:1000px)" srcset="./img/medium.jpg"/>
-            <img src="./img/Erikaperfil.jpg" />
-          </picture>
+    <article class="container">
+          
           <div class="welcome">
-            <h1 class="text">Welcome,</h1>
-            <p class="text">thank you for coming to meet me.</p>
-            <p class="text">I'm a front-end web developer </p>
+            <div class="container-presentacion">
+            <h1 class="text-presentacion">Bienvenid@!
+            <br>soy <span class="nombre">Erika Duarte</span> <span>Desarrolladora web</span>,</h1>
+            </div>
+            <div class="presentacion">
             <p class="text">
-              and I invite you to continue exploring my website and getting to know my projects and the technologies I've used.
-            </p>
+            Abogada, madre de un hermoso niño de 6 años; Además durante la pandemia desarrolle mis dotes de panadera!
+            Me gusta estar en constante aprendizaje y me siento cómoda investigando lo desconocido. 
+            Si quieres saber más de mí continua navegando en mi sitio... 😁 </p>
+            </div>
+          </div>
+          <div class="container-fotoperfil">
+          <img class="fotoperfil" src="/src/img/Erikaperfil.jpg" alt="foto de perfil"/>
+          <div class="overlay"></div>
           </div>
         </article>
     `
