@@ -63,10 +63,35 @@ export const skills = () => {
             </li>
             <li>
               <figure class="card">
-            <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/null/external-jest-can-collect-code-coverage-information-from-entire-projects-logo-color-tal-revivo.png"/>
+              <img src="https://img.icons8.com/external-tal-revivo-color-tal-revivo/48/null/external-jest-can-collect-code-coverage-information-from-entire-projects-logo-color-tal-revivo.png"/>
               <figcaption>Jest</figcaption>
           </figure> 
           </li>
+          <li>
+              <figure class="card">
+              <img width="48" height="48" src="https://img.icons8.com/plasticine/48/react.png" alt="react"/>
+              <figcaption>React</figcaption>
+          </figure> 
+          </li>
+          <li>
+              <figure class="card">
+              <img width="48" height="48" src="https://img.icons8.com/fluency/48/my-sql.png" alt="my-sql"/>
+              <figcaption>MySQL</figcaption>
+          </figure> 
+          </li>
+          <li>
+              <figure class="card">
+              <img width="48" height="48" src="https://img.icons8.com/officel/48/php-logo.png" alt="php-logo"/>
+              <figcaption>Php</figcaption>
+          </figure> 
+          </li>
+          <li>
+              <figure class="card">
+              <img width="48" height="48" src="https://img.icons8.com/color/48/bootstrap.png" alt="bootstrap"/>
+              <figcaption>Bootstrap</figcaption>
+          </figure> 
+          </li>
+       
           </ul>
           </article>
         </article>
