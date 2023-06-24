@@ -9,7 +9,7 @@ export const mensaje = () => {
             </div>
             <div class="presentacion">
             <p class="text">
-            Abogada, madre de un hermoso niño de 6 años, ah! también panadera, un don que descubrí durante la pandemia. 
+            Abogada, madre de un hermoso niño, ah! también panadera(un don que descubrí durante la pandemia). 
             Me gusta estar en constante aprendizaje y me siento cómoda investigando lo desconocido. 
             Si quieres saber más de mí continua navegando en mi sitio... 😁 </p>
             </div>
