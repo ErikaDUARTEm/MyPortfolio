@@ -15,7 +15,7 @@ export const mensaje = () => {
             </div>
           </div>
           <div class="container-fotoperfil">
-          <img class="fotoperfil" src="/src/img/Erikaperfil.jpg" alt="foto de perfil"/>
+          <img class="fotoperfil" src="https://raw.githubusercontent.com/ErikaDUARTEm/MyPortfolio/main/src/img/Erikaperfil.jpg" alt="foto de perfil"/>
           <div class="overlay"></div>
           </div>
         </article>
