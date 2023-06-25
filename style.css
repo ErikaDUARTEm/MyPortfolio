@@ -68,7 +68,7 @@ header {
 .main {
   display: flex;
   flex-direction: column;
-
+  
 }
 
 ul {
@@ -102,6 +102,7 @@ ul {
 .nav {
   display: none;
   position: relative;
+  z-index: 2;
   top: 5rem;
   transform: translate(100%);
   border-radius: 0px 0 0 200px;
@@ -186,7 +187,6 @@ ul {
 .button-card:hover {
   transform: scale(1.2);
   cursor: pointer;
-
 }
 
 .cv {
@@ -234,8 +234,8 @@ ul {
   align-items: center;
   width: 100vw;
   height: 100vh;
-
-
+  position:relative;
+  z-index: 1;
 }
 
 .container {
@@ -628,7 +628,7 @@ footer {
   display: flex;
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (width >= 600px) {
   .projects {
     width: 100vw;
     display: flex;
@@ -739,7 +739,7 @@ footer {
   }
 }
 
-@media screen and (width >=800px) {
+@media screen and (width >= 800px) {
 
   header {
     background-color: var(--primary-color);
@@ -1011,5 +1011,7 @@ footer {
     gap: 1.6rem;
     display: flex;
   }
-
+.cv{
+  display: block;
+}
 }
