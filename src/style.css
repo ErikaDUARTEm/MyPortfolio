@@ -17,7 +17,9 @@
   font-family: var(--font-family-principal);
 
 }
-
+main{
+  display: block;
+}
 html {
   font-size: 62.5%;
 }
@@ -179,6 +181,7 @@ ul {
   justify-content: center;
   align-items: center;
   gap: 2rem;
+  box-sizing: border-box;
 }
 
 .h3 {
@@ -259,7 +262,7 @@ button img {
   flex-direction: column;
   align-items: center;
   color: var(--second-color);
-  margin-top: 2rem;
+  margin-top: 1rem;
 
 }
 
@@ -273,7 +276,7 @@ button img {
 }
 
 .skills {
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: var(--third-color);
   font-family: var(--font-family-principal);
   justify-content: center;
@@ -319,7 +322,7 @@ button img {
   height: auto;
   color: var(--third-color);
   border-radius: 3rem;
-  padding: 2rem;
+  padding: 1rem;
   font-family: var(--font-family-principal);
   -webkit-border-radius: 3rem;
   -moz-border-radius: 3rem;
@@ -475,12 +478,6 @@ textarea {
 
 .button-submit {
   color: var(--second-color);
-  background-color: var(--primary-color);
-  font-family: var(--font-family-second);
-  font-weight: bold;
-}
-.button-submit {
-  color: var(--second-color);
   background-color: var(--third-color);
   font-family: var(--font-family-second);
   font-weight: bold;
@@ -525,7 +522,7 @@ footer {
   }
 
   .skill .skills {
-    font-size: 3rem;
+    font-size: 2.5rem;
     color: var(--third-color);
     font-family: var(--font-family-principal);
     justify-content: center;
@@ -606,7 +603,7 @@ footer {
   }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (width >= 800px) {
 
   header {
     background-color: var(--primary-color);
@@ -812,7 +809,9 @@ footer {
 
   }
 
-
+  a{
+    text-decoration: none;
+  }
   .aboutme {
     background-color: var(--primary-color);
     width: 100vw;
@@ -821,7 +820,7 @@ footer {
     justify-content: center;
     flex-direction: column;
     align-items: center;
-    background: linear-gradient(#fff0 0%, #fff0 70%, #1d1d1d 100%);
+    background: linear-gradient(#fff0 0%, #fff0 70%, rgb(195 11 232 / 26%) 100%);
 
   }
 
@@ -844,7 +843,7 @@ footer {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: linear-gradient(#fff0 0%, #fff0 70%, #1d1d1d 100%);
+    background: linear-gradient(#fff0 0%, #fff0 70%, rgb(195 11 232 / 26%) 100%);
 
   }
 
@@ -955,11 +954,11 @@ footer {
     border-radius: 1rem;
     padding: 5px;
     border: #E0B2D0;
-    box-shadow: 2px 2px 6px var(--color-box-shadow);
+    box-shadow: 2px 2px 10px white;
 }
 .button-card > a{
   text-decoration: none;
-  color:var(--primary-color);
+  color:var(--second-color);
 }
 .button-card:hover {
   transform: scale(1.2);
@@ -984,7 +983,7 @@ footer {
 }
 .allText-about{
   word-spacing: 1rem;
-  line-height: 2;
+  line-height: 1.8;
   color:var(--second-color);
   font-family: var(--font-family-principal);
   font-weight: bold;
