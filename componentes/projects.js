@@ -1,73 +1,130 @@
 const section = document.getElementById("projects");
 const projects = [
-          {
-          "name": "Trivia",
-          "image": "./img/foto-trivia.png",
-          "url":"https://erikaduartem.github.io/trivia-Laboratoria/",
-          "description":"Movie Trivia",
-          "technologies": "Html, Css, Javascript, Git, Github",
-          },
-          {
-          "name": "National Security",
-          "image": "https://raw.githubusercontent.com/ErikaDUARTEm/DEV001-cipher/main/src/img/national%20security.jpg",
-          "url":"https://erikaduartem.github.io/DEV001-cipher/",
-          "description":"National SecurityIt is a software for encrypting messages based on the Cesar Cipher.",
-          "technologies": "Html, Css, Javascript, Jest, Git, Github",
-          },
-          {
-          "name": "Data lovers",
-          "image": "https://raw.githubusercontent.com/ErikaDUARTEm/DEV001-data-lovers/main/src/img/HeaderReadme.png",
-          "url":"https://erikaduartem.github.io/DEV001-data-lovers/",
-          "description":"You will be able to learn about the world of Pokémon, view cards with images and names of all the Pokémon, sort the cards with names in alphabetical order, search by name to find out more details, and search for them by types.",
-          "technologies": "Html, Css, Javascript, Jest, Git, Github",
-          },
-          {
-          "name": "Down Family",
-          "image": "https://raw.githubusercontent.com/ErikaDUARTEm/DEV001-social-network/main/src/img/HU1%20-%20PAF%20-%20%20Mobil.png",
-          "url":"https://dev-001-social-network-orcin.vercel.app/",
-          "description":"Down FamilyIt is a social network aimed at parents or families with children who have Down Syndrome. The goal is to interact and share information about topics related to Down Syndrome.",
-          "technologies": "Html, Css, Javascript, Firebase, Jest, Git, Github",
-          },
-          {
-          "name": "Md-linksek",
-          "image": "https://raw.githubusercontent.com/ErikaDUARTEm/DEV001-md-links/main/img/Welcome.png",
-          "url":"https://www.npmjs.com/package/md-linksek",
-          "description":"Md-linksek It is a library that helps you extract the links found within a .md file and validate the status of these links, the number of links, whether they are unique, and whether there are broken links.",
-          "technologies": "Html, Css, Javascript, Node.js, Jest, Git, Github",
-          },
-          {
-          "name": "Calculator",
-          "image": "https://raw.githubusercontent.com/ErikaDUARTEm/Calculadora/main/src/img/calculator.png",
-          "url":"https://erikaduartem.github.io/Calculadora/",
-          "description":"Calculator for simple operations.",
-          "technologies": "Html, Css, Javascript, Git, Github"
-          }
-      ]; 
+  {
+    name: "Trivia",
+    image: "./img/foto-trivia.png",
+    url: "https://erikaduartem.github.io/trivia-Laboratoria/",
+    repositorio: "https://github.com/ErikaDUARTEm/trivia-Laboratoria",
+    description: "Trivía con la temática de películas.",
+    technologies: "Html, Css, Javascript, Git, Github.",
+  },
+  {
+    name: "National Security",
+    image:
+      "https://raw.githubusercontent.com/ErikaDUARTEm/DEV001-cipher/main/src/img/national%20security.jpg",
+    url: "https://erikaduartem.github.io/DEV001-cipher/",
+    repositorio: "https://github.com/ErikaDUARTEm/DEV001-cipher",
+    description:
+      "National Security es un software para encriptar mensajes basado en el Cifrado César.",
+    technologies: "Html, Css, Javascript, Jest, Git, Github.",
+  },
+  {
+    name: "Data lovers",
+    image:
+      "https://raw.githubusercontent.com/ErikaDUARTEm/DEV001-data-lovers/main/src/img/HeaderReadme.png",
+    url: "https://erikaduartem.github.io/DEV001-data-lovers/",
+    repositorio: "https://github.com/ErikaDUARTEm/DEV001-data-lovers",
+    description:
+      "Podrás aprender sobre el mundo de Pokémon, ver cartas con imágenes, buscar por nombre para obtener más detalles y buscarlos por tipos.",
+    technologies: "Html, Css, Javascript, Jest, Git, Github.",
+  },
+  {
+    name: "Down Family",
+    image:
+      "https://raw.githubusercontent.com/ErikaDUARTEm/DEV001-social-network/main/src/img/HU1%20-%20PAF%20-%20%20Mobil.png",
+    url: "https://dev-001-social-network-orcin.vercel.app/",
+    repositorio: "https://github.com/ErikaDUARTEm/DEV001-social-network",
+    description:
+      "Down Family es una red social dirigida a padres o familias con hijos que tienen Síndrome de Down.",
+    technologies: "Html, Css, Javascript, Firebase, Jest, Git, Github.",
+  },
+  {
+    name: "Md-linksek",
+    image:
+      "https://raw.githubusercontent.com/ErikaDUARTEm/DEV001-md-links/main/img/Welcome.png",
+    url: "https://www.npmjs.com/package/md-linksek",
+    repositorio: "https://github.com/ErikaDUARTEm/DEV001-md-links",
+    description:
+      "Es una libreria que te ayuda a extraer los enlaces encontrados dentro de un archivo .md y validar el estado de estos enlaces, el número de enlaces, si son únicos y si hay enlaces rotos.",
+    technologies: "Html, Css, Javascript, Node.js, Jest, Git, Github.",
+  },
+  {
+    name: "Calculator",
+    image:
+      "https://raw.githubusercontent.com/ErikaDUARTEm/Calculadora/main/src/img/calculator.png",
+    url: "https://erikaduartem.github.io/Calculadora/",
+    repositorio: "https://github.com/ErikaDUARTEm/Calculadora",
+    description: "Calculadora para realizar operaciones matemáticas simples.",
+    technologies: "Html, Css, Javascript, Git, Github.",
+  },
+  {
+    name: "Ricky Morty",
+    image:
+      "https://raw.githubusercontent.com/ErikaDUARTEm/app-ricky-morty-react/main/src/img/rick-morty.png",
+    url: "https://app-ricky-morty-react.vercel.app/",
+    repositorio: "https://github.com/ErikaDUARTEm/app-ricky-morty-react",
+    description:
+      "App de busqueda de personajes de Ricky Morty con react y consumiendo una Api.",
+    technologies: "Html, Css, Javascript, React, Git, Github.",
+  },
+  {
+    name: "Juego Tic Toc Toe",
+    image:
+      "https://raw.githubusercontent.com/ErikaDUARTEm/MyPortfolio/main/src/img/tictoctoe.png",
+    url: "https://tic-toc-toe-con-react-gf7j17t8t-erikaduartem.vercel.app/",
+    repositorio: "https://github.com/ErikaDUARTEm/Tic-toc-toe-con-react",
+    description: "Popular juego llamado tic toc toe",
+    technologies: "Html, Css, Javascript, React, Git, Github.",
+  },
+  {
+    name: "Ecommerce web day",
+    image:
+      "https://raw.githubusercontent.com/ErikaDUARTEm/MyPortfolio/main/src/img/ecommerce.png",
+    url: "https://ecommerce-web-day-rs4w-o92b4ifq1-erikaduartem.vercel.app/",
+    repositorio: "https://github.com/ErikaDUARTEm/ecommerce-web-day",
+    description: "Ecommerce consumiendo Api.",
+    technologies: "Html, Javascript, Bootstrap5, React, Git, Github.",
+  },
+  {
+    name: "Block notes",
+    image:
+      "https://raw.githubusercontent.com/ErikaDUARTEm/MyPortfolio/main/src/img/home.png",
+    url: "https://github.com/ErikaDUARTEm/block-notes-php",
+    repositorio: "https://github.com/ErikaDUARTEm/block-notes-php",
+    description:
+      "Es una app web para guardar notas, podrás crear, leer, editar y eliminar de la base de datos a la que la conectes.",
+    technologies: "Html, Css, Php, PDO, Mysql, Xampp, PhpMyAdmin, Git, Github.",
+  },
+];
 
 const cardProjects = (data) => {
-    const card = `
+  const card = `
       <article class="card-projects">
         <article class="allprojects">
               <figure>
-              <a
-              href=${data.url}
-              target="_blank"
-            >
+              
               <img src=${data.image} class="img-project"
               />
             </a>
-            <figcaption class="allText">${data.name}</figcaption> 
           </figure>
+          <div class="container-description-card">
+          <p class="allText-card">${data.name}</p> 
+          <p class="description-card">Descripción: ${data.description}</p>
           <p class="text-card">${data.technologies}</p>
+          </div>
+          <div class="container-button-card">
+          <button type="button" class="button-card"><a
+          href=${data.repositorio}
+          target="_blank">Repositorio</button>
+          <button type="button" class="button-card"><a
+          href=${data.url}
+          target="_blank">Demo</button>
+          </div>
       </article>
-  `
+  `;
   return card;
-  
 };
 
-    projects.forEach((proje)=>{
-    section.insertAdjacentHTML("beforeEnd", cardProjects(proje));
-})
-
-
-
+projects.forEach((proje) => {
+  section.insertAdjacentHTML("beforeEnd", cardProjects(proje));
+});
