@@ -684,7 +684,9 @@ footer {
     align-items: center;
     text-shadow: 3px 4px 20px var(--color-box-shadow);
   }
-
+  .skill{
+    height: 100vh;
+  }
   .allTecno {
     width: 70vw;
     height: 100%;
