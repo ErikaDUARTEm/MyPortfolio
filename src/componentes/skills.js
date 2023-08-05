@@ -91,7 +91,12 @@ export const skills = () => {
               <figcaption>Bootstrap</figcaption>
           </figure> 
           </li>
-       
+          <li>
+            <figure class="card">
+              <img width="48" height="48" src="https://raw.githubusercontent.com/ErikaDUARTEm/MyPortfolio/main/src/img/codeIgniter.png" alt="logo-codeIgniter"/>
+              <figcaption>CodeIgniter</figcaption>
+            </figure> 
+          </li>
           </ul>
           </article>
         </article>

@@ -95,6 +95,16 @@ const projects = [
       "Es una app web para guardar notas, podrás crear, leer, editar y eliminar de la base de datos a la que la conectes.",
     technologies: "Html, Css, Php, PDO, Mysql, Xampp, PhpMyAdmin, Git, Github.",
   },
+  {
+    name: "Inventario CodeIgniter",
+    image:
+      "https://raw.githubusercontent.com/ErikaDUARTEm/MyPortfolio/main/src/img/home.png",
+    url: "https://isomeric-leaders.000webhostapp.com/",
+    repositorio: "https://github.com/ErikaDUARTEm/inventario-codeIgniter",
+    description:
+      "Inventario para agregar, editar y eliminar productos, proveedores, empleados, asi como generar ventas y descargar en pdf reportes de las ventas diarias",
+    technologies: "CodeIgniter, Php, Xampp, Git, Github.",
+  },
 ];
 
 const cardProjects = (data) => {
