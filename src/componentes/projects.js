@@ -98,7 +98,7 @@ const projects = [
   {
     name: "Inventario CodeIgniter",
     image:
-      "https://raw.githubusercontent.com/ErikaDUARTEm/MyPortfolio/main/src/img/home.png",
+      "https://raw.githubusercontent.com/ErikaDUARTEm/MyPortfolio/main/src/img/dashboard.png",
     url: "https://isomeric-leaders.000webhostapp.com/",
     repositorio: "https://github.com/ErikaDUARTEm/inventario-codeIgniter",
     description:
