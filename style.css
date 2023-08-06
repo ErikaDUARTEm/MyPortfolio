@@ -868,7 +868,7 @@ footer {
     margin-top: 0;
     gap: 20px;
     transform: translateZ(30px);
-
+   
   }
 
   .container {
@@ -1043,4 +1043,5 @@ footer {
 .cv{
   display: block;
 }
+
 }
