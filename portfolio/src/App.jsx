@@ -13,7 +13,7 @@ function App() {
       <Home/>
       <ButtonCv>Descargar C.V.</ButtonCv>
       <Projects
-      img={fotoTrivia} 
+      imagen={fotoTrivia} 
       title={"Trivia"} description={"Trivía con la temática de películas."} 
       technologies={ "Html, Css, Javascript, Git, Github."}
       url={"https://erikaduartem.github.io/trivia-Laboratoria/"}
