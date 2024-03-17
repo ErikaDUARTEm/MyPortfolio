@@ -28,7 +28,7 @@
 .container-presentation > h1, .container-presentation > h2{
     font-size: 18px;
 }
-.container-presentation > h3 > em{
+.container-presentation > h2 > em{
     color:#C71585;
     font-weight: bold;
 }

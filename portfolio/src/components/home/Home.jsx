@@ -8,10 +8,9 @@ export function Home() {
           <img src={Erikaperfil} />
         </div>
         <article className="container-presentation">
-          <h3>Hola! Mi nombre es <em>Erika Duarte, </em>
+          <h2>Hola! Mi nombre es <em>Erika Duarte, </em><br></br>
           Desarrolladora web Full Stack Junior enfocada en el Frontend.
-          </h3>
-          
+          </h2>
         </article>
         <article className="container-about-me">
           <p>
