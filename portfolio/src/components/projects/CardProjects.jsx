@@ -1,6 +1,6 @@
 import { ButtonCv } from "../buttons/ButtonCv";
-import "./Projects.css";
-export function Projects ({imagen, title, description, technologies, url, repo}){
+import "./CardProjects.css";
+export function CardProjects ({imagen, title, description, technologies, url, repo}){
     return(
         <>
             <section className="section-all-projects">
