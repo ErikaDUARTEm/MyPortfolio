@@ -6,9 +6,11 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
+    gap:16px;
+    
 }
 .card{
-    width: 25%;
+    width: 40%;
     font-size: 12px;
     background-color: #FF69B4;
     display: flex;
