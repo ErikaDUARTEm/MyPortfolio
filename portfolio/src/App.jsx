@@ -1,5 +1,5 @@
 import './App.css';
-import { ButtonCv } from './components/buttons/ButtonCv';
+import { Button } from './components/buttons/Button';
 import { Header } from './components/header/Header';
 import { Home } from './components/home/Home';
 import { Skills } from './components/skills/Skills';
@@ -13,7 +13,7 @@ function App() {
     <>
       <Header/>
       <Home/>
-      <ButtonCv>Descargar C.V.</ButtonCv>
+      <Button><a href="https://drive.google.com/file/d/1MTQDax2VdVm0-xqcLzxGbTfKdVuMf_ws/view?usp=sharing" target="_blank">Descargar C.V.</a></Button>
       <AllProjects/>
       <Skills/>
       <Footer></Footer>

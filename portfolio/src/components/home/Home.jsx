@@ -3,7 +3,7 @@ import Erikaperfil from "../../assets/Erikaperfil.jpg";
 export function Home() {
   return (
     <>
-      <section className="section-about-me">
+      <section className="section-about-me" id="aboutme">
         <div className="container-photo-perfil">
           <img src={Erikaperfil} />
         </div>

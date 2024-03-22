@@ -2,7 +2,7 @@ import './Footer.css';
 export function Footer () {
     return(
         <>
-            <footer>
+            <footer id="contact">
                 <div className="container-email">
                     <p>¿Quieres trabajar conmigo?</p>
                     <p>Escribe</p>

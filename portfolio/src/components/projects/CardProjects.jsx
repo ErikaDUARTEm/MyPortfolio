@@ -1,9 +1,9 @@
-import { ButtonCv } from "../buttons/ButtonCv";
+import { Button } from "../buttons/Button";
 import "./CardProjects.css";
 export function CardProjects ({imagen, title, description, technologies, url, repo}){
     return(
         <>
-            <section className="section-all-projects">
+            <section className="section-all-projects" id="projects">
                 <article className="section-project">
                     <div className="container-project-img">
                         <img src={imagen}/>
@@ -15,8 +15,8 @@ export function CardProjects ({imagen, title, description, technologies, url, re
                         <h3>{technologies}</h3>
                     </div> 
                     <div className="container-buttons">
-                        <ButtonCv><a href={url} target="_blank">Ver Proyecto</a></ButtonCv>
-                        <ButtonCv><a href={repo} target="_blank">Ver Código</a></ButtonCv>
+                        <Button><a href={url} target="_blank">Ver Proyecto</a></Button>
+                        <Button><a href={repo} target="_blank">Ver Código</a></Button>
                     </div>
                     </div>
                     

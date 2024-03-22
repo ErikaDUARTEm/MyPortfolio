@@ -1,5 +1,5 @@
-import './ButtonCv.css';
-export function ButtonCv ({children}){
+import './Button.css';
+export function Button ({children}){
     return (
         <>
             <div className='container-button-cv'>

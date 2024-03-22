@@ -3,7 +3,7 @@ export function Skills (){
     
     return(
         <>
-            <section className="container-skills">
+            <section className="container-skills" id="skills">
                 <CardSkills id={1} imagen={"https://img.icons8.com/color/48/000000/javascript.png"} title={"Javascript"} alt={"Logo de Javascript"}/>
                 <CardSkills id={2} imagen={"https://img.icons8.com/color/48/000000/html-5.png"} title={"Html5"}  alt={"Logo de Html5"}/>
                 <CardSkills id={3} imagen={"https://img.icons8.com/color/48/000000/css3.png"} title={"Css3"}  alt={"Logo de Css3"}/>
