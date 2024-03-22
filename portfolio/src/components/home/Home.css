@@ -11,7 +11,8 @@
     background-color: #FF69B4;
 }
 .container-photo-perfil > img{
-    max-width: 200px;
+    max-width: 100%;
+    height: auto;
     border-radius: 50%;
     margin-top: 20px;
     

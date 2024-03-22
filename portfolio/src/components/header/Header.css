@@ -2,7 +2,7 @@
 
 header {
     display: flex;
-    width: 100vw;
+    width: auto;
     height: 50%;
     flex-direction: row;
     color: #FFE4E1;
