@@ -1,18 +1,20 @@
 .section-about-me{
     display: flex;
+    width: 100vw;
     flex-direction: column;
     place-items: center;
+    font-size: 16px;
 }
 .container-photo-perfil{
-    width: 100%;
+    width: 100vw;
     display: flex;
     aspect-ratio: 16 / 9;
     justify-content: center;
     background-color: #FF69B4;
+    border:none;
 }
 .container-photo-perfil > img{
-    max-width: 100%;
-    height: auto;
+    max-height: auto;
     border-radius: 50%;
     margin-top: 20px;
     
@@ -24,21 +26,86 @@
     padding: 0 20px;
     box-sizing: border-box;
     color: #FFE4E1;
+    font-weight: bold;
+    line-height: 1.5;
     background-color: #FF69B4;
 }
-
-.container-presentation > h1, .container-presentation > h2{
+.container-presentation > h2{
+    margin:5px;
     font-size: 18px;
 }
 .container-presentation > h2 > em{
     color:#C71585;
-    font-weight: bold;
 }
-.container-presentation > h2{
-    margin:5px;
-}
+
 .container-about-me{
     color:#FFE4E1;
-    padding: 10px 20px;
+    padding: 20px 20px;
     text-align: left;
+    text-align: justify;
+    line-height: 1.5;
 }
+.container-about-me >p{
+    font-size: 14px;
+}
+
+@media screen and (min-width: 576px){
+    .container-photo-perfil{
+        height: 220px;
+        width: 100vw;
+    }
+    .container-photo-perfil >img{
+        width: 200px;
+        height: 200px;  
+    }
+    .container-img-presentation{
+        width: 100%;
+    }
+    
+    .container-presentation >h2{
+        font-size: 18px;
+    }
+    .container-presentation >p{
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 768px){
+
+
+   
+}
+@media screen and (min-width: 1024px){
+    .section-about-me{
+        display: flex;
+        flex-direction: row;
+        place-items: center;
+        font-size: 16px;
+    }
+    .container-img-presentation{
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+        height: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+        justify-content: center;
+        
+    }
+    .container-about-me{
+        width: 60%;
+    }
+    .container-presentation{
+        background-color: transparent;
+    }
+    .container-photo-perfil{
+        width: 100%;
+        background-color: transparent;
+    }
+    .container-photo-perfil > img{
+        width: 200px;
+        height: 200px;
+       
+    }
+}
+
+

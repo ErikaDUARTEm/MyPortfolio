@@ -6,7 +6,7 @@ export function Footer () {
                 <div className="container-email">
                     <p>¿Quieres trabajar conmigo?</p>
                     <p>Escribe</p>
-                    <p>erika.duarte.mora@gmail.com</p>
+                    <p><a href="mailto:erika.duarte.mora@gmail.com" target="_blank">erika.duarte.mora@gmail.com</a></p>
                 </div>
                 <div className="container-copyrigth">
                     <p>Copyright © 2024 Erika Duarte</p>

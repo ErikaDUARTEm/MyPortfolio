@@ -4,14 +4,18 @@ export function Home() {
   return (
     <>
       <section className="section-about-me" id="aboutme">
-        <div className="container-photo-perfil">
-          <img src={Erikaperfil} />
-        </div>
-        <article className="container-presentation">
-          <h2>Hola! Mi nombre es <em>Erika Duarte, </em><br></br>
-          Desarrolladora web Full Stack Junior enfocada en el Frontend.
-          </h2>
-        </article>
+         <div className="container-img-presentation">
+         <div className="container-photo-perfil">
+            <img src={Erikaperfil} />
+          </div>
+          <article className="container-presentation">
+            <h2>
+              Hola! Mi nombre es <em>Erika Duarte,</em>
+            </h2>
+            <p>Desarrolladora web Full Stack Junior enfocada en el Frontend.</p>
+          </article>
+         </div>
+          
         <article className="container-about-me">
           <p>
             Desde mis primeros pasos autodidactas en abril de 2022, he trazado

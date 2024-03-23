@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Petrona:ital,wght@0,100..900;1,100..900&display=swap');
 body{
-  background:#0f0d0d;
+  background: -webkit-linear-gradient(90deg, #000000,#1a1919,#4c484a,#272626,#000000);background: linear-gradient(90deg, #000000,#1a1919,#4c484a,#272626,#000000);
   margin: 0;
+  width: 100vw;
   padding: 0;
   display: flex;
   place-items: center;
