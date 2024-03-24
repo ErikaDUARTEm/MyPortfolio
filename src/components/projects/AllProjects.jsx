@@ -88,7 +88,7 @@ export function AllProjects() {
             imagen={"https://raw.githubusercontent.com/ErikaDUARTEm/MyPortfolio/main/src/assets/animex.png"}
             title={"App full stack"}
             description={
-              "App desarrollada en el Frontend con React.js y en el Backend con Java y Spring boot, Consiste en consumir una Api pública y crear un buscador por título y de un carrusel que muestra todos los animes con imagen y nombre y muestra las reglas de negocio enviadas desde el backend. En el backend se manejan las reglas de negocio donde se hace un cálculo de porcentaje de las puntuaciones de los animes por temporada, las que tengan una puntuación mayor a 7 es la anime mejor recomendada."}
+              "App desarrollada en el Frontend con React.js y en el Backend con Java y Spring boot, Consiste en consumir una Api pública y crear un buscador por título. En el backend se manejan las reglas de negocio donde se hace un cálculo de porcentaje de las puntuaciones de los animes por temporada y las recomienda según su puntuación."}
             technologies={"Java, Spring Boot, React, Css3"}
             url={"https://github.com/ErikaDUARTEm/challenge-prueba-tecnica"}
             repo={"https://github.com/ErikaDUARTEm/challenge-prueba-tecnica"}

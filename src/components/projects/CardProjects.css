@@ -55,6 +55,9 @@ a{
     text-decoration: none;
     color: inherit;
 }
+.container-description > p:nth-child(3){
+    color:#FF69B4;
+}
 @media screen and (min-width: 576px) {
     
     .section-all-projects{
@@ -66,8 +69,8 @@ a{
     }
     .section-project{
         width: 40%;
-        height: 90vh;
-        border-radius: 8px;
+        /* height: 90vh;*/
+        border-radius: 8px; 
         overflow: hidden;
         transition: filter 0.3s ease-in 0s;
     }
@@ -86,6 +89,7 @@ a{
     }
     .container-description{
         height: 70%;
+        justify-content: space-around;
     }
     .container-description >p{
         font-size: 14px;
@@ -148,9 +152,7 @@ a{
         font-size: 12px;
         margin: 0;
     }
-    .container-description > p:nth-child(3){
-        color:#FF69B4;
-    }
+    
     .section-all-projects{
         width: 100%;
         height: 80%;
