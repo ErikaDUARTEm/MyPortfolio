@@ -3,6 +3,8 @@ import fotoTrivia from "../../assets/fotoTrivia.png";
 import pokemon from "../../assets/pokemon.png";
 import socialNetwork from "../../assets/socialNetwork.png";
 import inventario from "../../assets/inventario.png";
+import api from "../../assets/api.png";
+import animex from "../../assets/animex.png";
 import "./CardProjects.css";
 
 export function AllProjects() {
@@ -74,6 +76,24 @@ export function AllProjects() {
             technologies={"CodeIgniter, Php, Xampp, Git, Github."}
             url={"https://isomeric-leaders.000webhostapp.com/"}
             repo={"https://github.com/ErikaDUARTEm/inventario-codeIgniter"}
+          />
+          <CardProjects
+            imagen={api}
+            title={"Api fleet Management"}
+            description={
+              "Desarrolle una API REST de un Fleet Management Software para consultar las ubicaciones de los vehículos de una empresa de taxis en Beijing, China."}
+            technologies={"Java, Spring Boot, Spring Boot test, JUnit, Hibernate, PostgreSQL, base de datos en Vercel"}
+            url={"https://github.com/ErikaDUARTEm/UPSK-JAVA-001-fleet-management-api"}
+            repo={"https://github.com/ErikaDUARTEm/UPSK-JAVA-001-fleet-management-api"}
+          />
+          <CardProjects
+            imagen={animex}
+            title={"App full stack"}
+            description={
+              "App desarrollada en el Frontend con React.js y en el Backend con Java y Spring boot, Consiste en consumir una Api pública y crear un buscador por título y de un carrusel que muestra todos los animes con imagen y nombre y muestra las reglas de negocio enviadas desde el backend. En el backend se manejan las reglas de negocio donde se hace un cálculo de porcentaje de las puntuaciones de los animes por temporada, las que tengan una puntuación mayor a 7 es la anime mejor recomendada."}
+            technologies={"Java, Spring Boot, React, Css3"}
+            url={"https://github.com/ErikaDUARTEm/challenge-prueba-tecnica"}
+            repo={"https://github.com/ErikaDUARTEm/challenge-prueba-tecnica"}
           />
         </div>
       </div>
