@@ -8,7 +8,7 @@ import "./CardProjects.css";
 export function AllProjects() {
   return (
     <>
-      <div className="container-projects">
+      <div className="container-projects" id="projects">
         <div className="container-title">
           <h2>Projects</h2>
         </div>
