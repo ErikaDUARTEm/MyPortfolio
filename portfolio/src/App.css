@@ -10,7 +10,20 @@ body{
   font-optical-sizing: auto;
   font-weight: 300;
   font-style: normal;
+ 
 
 }
+::-webkit-scrollbar {
+  display: none;
+}
+.button-back{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  align-self: flex-end;
+}
 
-  
+.button-back:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+}

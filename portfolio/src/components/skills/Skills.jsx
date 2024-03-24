@@ -109,6 +109,22 @@ export function Skills() {
             title={"Spring boot"}
             alt={"Logo de Spring boot"}
           />
+           <CardSkills
+            id={17}
+            imagen={
+                "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAACXBIWXMAAAsTAAALEwEAmpwYAAAEQElEQVR4nO2Zy1NbVRzHz7qtr1FJICGBBtTagrRV/4COL1y7cOGM48o/wGVXdTp0HG15JiGQB48AUquVTtXR0tKqddpOCyUQcvNO7g0JbwK0UITyde5JegPklpmzsWeRz8xnIPf3O+d3v5eTu4GQAgUKFOCS41eXPj42mJaOX03jWXpsMC29PbhUyxzg6JVF6ejgIniwZnBRZA5Q88cCeJKw8tbvC+BJwkr1b/PgScJK1S/z4EnCypHLc+BJwsrhS7PgScLKoYFZ8CRh5Y2LM+BJwsrrP02DJwkrr12YBk8SVirPT2FP+5MwdQRx0DFBNXWEUNmfytW/n8RBl6DUqU4fXVPRJ9Geil5xZ90xgYoeUXUec4CK/hT20tQdhWU4hSd8fTMBkzueq3eF8XNgHtuZW93A39IyPr0UhKk7gnKngMDCmlJferSJCodXdR5zAFNfCnvq8GH24b/YeLxFhwvzqyizC0q93BnC9fgSrUnL67g1uYLFtQ36WV5T+0OA9vdPzCkBbsSXUG73qc5jDlDem8TTLOsW8fnlMB0q3+STG/vwvB/lbon2GB1BDGUDmO+mYHT4UeOaoE9Z5sw/CZR1RFDt8ioB5PXy3mozmQOUuZN4mkZ7EAP+zPE4eV3ExezvlnspGJ1RpWcolgnQIgdwRmCw+RCYzxyZpjtJeq3KsS1AvxwgoTqTOYCxaxKqdiZwqH0cqxuPIR+ed10T+PLXCL2B1Mo6jK1e2mdoC2AolqbXuzwzONEj4NSfEl0j89lACAZXHFX28VyAPj+MnZLqXOYAhs4E1Cx1xvDVlRgdeDe5An3TfVSa79NAMp9cCMDgjKHU5sdQNBNgO/JXpn14CvpWHwwdEo60jym1D3oFGDpE1bnMAUpdCaips/hwU1ymA9c3t5Be26RubmWerdszA70tCL3Vj2vZAPeSD9ByJ4WT1+I44fZBbxVQ6hRR6pRwuC0X4P2e7HWVucwB9E4JeTrieMfhpU9RxjvzEKNTD6iR7OswvbaBMrMHOougBGi+nYTOGoCuLQK9PZbbzx7Dm7ZcgPfcPujao/lznRJ7AJ1dxG5LrCHU/SUp572kYQTFzV5qdatH+St8MRBESfM4rkUyAZpuJena3fsVN3vR65lRAshHrqTRk9cnyxyguE3EbrWNXuX4mG8noW3x76jdyL51XMPT0DZ48KM3844/NSRCawnn7adpGIN/blUJkH60iZL60bw+WeYAWlsceZpDKDo7gqKzw9DUj0HbGs3VrGEUnRulNfmnxhxUPmsaxnf2quxXRB2BpiWY32eLswfQWGPgScJKkSUGniSsvNoSBU8SVl5pjoAnCSsvN0bAk4SVl+rD4EnCyovnwuBJwsoL34XAk4SV578NgicJK899EwRPElYO1PmlA2cC4EM/+z849p0WavfXCeL+Oj+erYK4r074iDlAgQIFCpD/g/8AlBrp5O8QDzsAAAAASUVORK5CYII="
+            }
+            title={"Api"}
+            alt={"Logo de Api"}
+          />
+          <CardSkills
+            id={18}
+            imagen={
+                "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAADB0lEQVR4nO2YSWgUQRSGP02IxoUEAiLoIaIBjaAnExRc8ODBRG8eTJy4xoMQl4CICqImh4ggRHNKvIgHT4oHBQniRUERwQ13UNGjxuACAbeRBy/QDD3d1TVV047OB3WY7ldvqXnV1f1Dmf+HCmANcBQ4DcykBKkHHgHZwLgKbAAmUEL/xIOcIoLjPCXCyogixscqSoBOg0IOUgJsNijkMCXAaoNC2vnLNnUGeA5cD1zfkbC1uoCt6q/oLAGeBBK7Ebi3EPgVU0ir2k4Ffuq1+8DSYhUgZ8Ah4LsGfwV0hKzmQEQR13LOkhbgtd77AXT7Pmsk2UENKCt+EpiUx3YOMBpShCTaHGI/GegDfqvdWWCir0LOaZBvwFoD+30hhfTHzFkHfFXbQR//zH51/gVYZjhnT0ghPQbzlgeKkcVwRrNuSGmn9Qb2VcCuPK01onsqrm1atc1kLza52hf3NAnp4Ti2AO8NHr8v9AUyihNqe9dFi2XU2VtgSoztcYMCcofMyUc18E7t2got5I46kgMrigaDsyNsyJzFEX63qd3tQopYFOhrWZ0o2i2KyBps6Grgk9rJQWtFtzoYMrCdAey0HPNjfA9pHpKPFZfVwSbSJaN5XLR18EwdLCBdGjUPeTm14qM6qCNd6jQPyceK8RfDStKlUvOQfKwYUQc1pEtN4OlpxSXgpb5ypEmV5mG92f9ZtbC/SGphheuY8nH0OOcUvuJZLax3HVNW5WGR1UIvCmUaaqGXmGmohV5ipqEWeomZhlroJeb2FForqUJpRBK10BXeYp5JoBa6YsBHTFO1UD58DgCzEvqfrfM6LGImZq+BWvhBr4v2dRM4okrkXKBWbWr1d4vevxVoI/kmL1ShjGV3iNPeHBsR0C4AYwabNTjGdF6TgULZiyVRauFnYGOIWjhdlchTwDDwJjB/VH8P633ReKc5iOlELXyqCbnAecxjCdvDVJh2rVD2RDmcZ6kWiti8wrKIBh8x2ywcZhMI3K4Vyr4otbDTUi0U7cmGQhTKRsuYZcqQgD8OBkR7NyLfMQAAAABJRU5ErkJggg=="
+            }
+            title={"Team work"}
+            alt={"Logo de Trabajo en equipo"}
+          />
         </div>
       </section>
     </>

@@ -127,7 +127,9 @@ a{
     }
 }
 @media screen and (min-width: 1024px){
-    
+    .container-projects{
+        padding-bottom: 20px;
+    }
     .container-buttons{
         width: 100%;
         display: flex;
@@ -135,8 +137,12 @@ a{
         align-items: center;
         gap:16px;
     }
+    .container-description{
+        height: 80%;
+        padding: 10px 10px 0 10px;
+    }
     .container-description > h2{
-        font-size: 18px;
+        font-size: 16px;
     }
     .section-all-projects{
         width: 100%;
@@ -159,10 +165,6 @@ a{
     .container-project-description{
         height: 70%;
     }
-    .container-description{
-        height: 80%;
-    }
-    
     .container-buttons{
         height: 20%;
     }
