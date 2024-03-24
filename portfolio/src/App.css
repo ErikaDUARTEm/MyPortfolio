@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Petrona:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+  background: -webkit-linear-gradient(90deg, #000000,#1a1919,#4c484a,#272626,#000000);background: linear-gradient(90deg, #000000,#1a1919,#4c484a,#272626,#000000);
+  margin: 0;
+  width: 100vw;
+  padding: 0;
+  display: flex;
+  place-items: center;
+  font-family: "Petrona", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+ 
+
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.button-back{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  align-self: flex-end;
+}
+
+.button-back:hover{
+  cursor: pointer;
+  transform: scale(1.2);
+}
